@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <a class="navbar-brand" href="#">Project Explorer</a>
+
+            <form class="form-inline">
+                <input type="search" class="m-2 form-control" placeholder="Search Projects">
+                <button class="btn btn-outline-light" type="submit">Search</button>
+                <input type="submit" class="btn btn-primary">
+            </form>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sign up</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Login</a>
+                    </li>
+                </ul>
+            </div>
+
+        </nav>
+        
+        <div class="container my-profile">
+
+            <div class="pt-5 profile-title1">
+                <h4 class="profile-title">Ade Chuks<small class="text-muted"> ade@edconnect.ng</small></h4>
+            </div>
+           
+            <div class="row bg-light">
+                
+                <div class="col">
+                    <p class="program-title">Program</p>
+                    <p class="program-title">Computer Information System</p>
+                </div>
+            
+                <div class="col">
+                    <p class="matric-title">Matriculation number</p>
+                    <p class="matric-title">33/3333</p>
+                </div>
+
+                <div class="col">
+                    <p class="grad-title">Graduation year</p>
+                    <p class="grad-title">2018</p>
+                </div>
+
+            </div>
+            
+        </div>
+
+        <h6 class="m-5 update-title">Update Profile<hr></h6>
+
+        <div class="container">
+            <div class="form-row justify-content-center align-items-center">
+                <div class="form-group col-10 col-md-8 col-lg-6">
+                    <form class="form-example" action="" method="post">
+                        <div class="form-row">
+                            <div class="form-group col">
+                                <label for="first name" class="form-label">First name</label>
+                                <input type="text" class="form-control">
+                            </div>
+                    
+                            <div class="form-group col">
+                                <label for="last name" class="form-label">Last name</label>
+                                <input type="text" class="form-control">
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group col">
+                                <label for="email" class="form-label">Email Address</label>
+                                <input type="email" class="form-control">
+                            </div>
+                    
+                            <div class="form-group col">
+                                <label for="program" class="form-label">Program</label>
+                                <select name="program" class="form-control">
+                                    <option selected>Choose...</option>
+                                    <option>...</option> 
+                                </select>
+                            </div>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group col">
+                                <label for="matricNumber" class="form-label">Mariculation number</label>
+                                <input type="text" class="form-control">
+                            </div>
+                    
+                            <div class="form-group col">
+                                <label for="gradYear" class="form-label">Graduation year</label>
+                                <select name="gradYear" class="form-control">
+                                    <option selected>Choose...</option>
+                                    <option>...</option> 
+                                </select>
+                            </div>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Update Profile</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <h6 class="m-5 update-title">Change Password<hr></h6>
+        <div class="form-row justify-content-center align-items-center">
+            <div class="form-group col-10 col-md-8 col-lg-6">
+                <form class="form-example" action="" method="post">
+                    <div class="form-row">
+                        <div class="form-group col-4">
+                            <label for="currentPassword" class="form-label">Current password</label>
+                            <input type="password" class="form-control" placeholder="Current Password">
+                        </div>
+                        <div class="form-group col-4">
+                            <label for="newPassword" class="form-label">New password</label>
+                            <input type="password" class="form-control" placeholder="Your new password">
+                        </div>
+                        <div class="form-group col-4">
+                            <label for="confirmPassword" class="form-label">Confirm password</label>
+                            <input type="password" class="form-control" placeholder="Confirm new password">
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Change Password</button>
+
+                </form>
+            </div>
+        </div>
+        
+        <footer class="page-footer">
+
+            <!-- Copyright -->
+            <div class="m-5 footer-copyright text-right bg-light pt-2 py-2">
+                <h6 class="card-text"><small class="text-muted">Project Explorer © 2020 </small>. Edconnect</h6>
+            </div>
+            <!-- Copyright -->
+          
+        </footer>
+
+
+    </div>       
+ 
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
